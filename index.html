@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>Nike product card</title>
+</head>
+
+<body style="background: #e9e9e9 url('img/main-bg.png') no-repeat top center / cover">
+<header>
+  <h1 class="visually-hidden">Header Information</h1>
+</header>
+
+<main>
+  <h1 class="visually-hidden">Main information</h1>
+  <section class="card">
+    <h2 class="card__title">
+      <a href="#" class="card__title__link">
+        <img src="img/logo@2x.png" alt="Nike Logo" width="65" height="33">
+      </a>
+    </h2>
+    <div class="card__inner">
+      <div class="card__slider-column">
+        <input class="card__default-btn" type="radio" id="btn-1" name="toggle" checked>
+        <input class="card__default-btn" type="radio" id="btn-2" name="toggle">
+        <input class="card__default-btn" type="radio" id="btn-3" name="toggle">
+        <input class="card__default-btn" type="radio" id="btn-4" name="toggle">
+        <div class="slider__controls">
+          <label class="slider__btn nightsky" for="btn-1"></label>
+          <label class="slider__btn white" for="btn-2"></label>
+          <label class="slider__btn red" for="btn-3"></label>
+          <label class="slider__btn aqua" for="btn-4"></label>
+        </div>
+        <div class="slider__inner">
+          <div class="slider__slides">
+            <img class="slider__image" src="img/Nike-SB-Stefan-Janoski-Max.png" width="329" height="159" alt="Product photo">
+            <img class="slider__image" src="img/Nike-SB-Stefan-Janoski-Max.png" width="329" height="159" alt="Product photo">
+            <img class="slider__image" src="img/Nike-SB-Stefan-Janoski-Max.png" width="329" height="159" alt="Product photo">
+            <img class="slider__image" src="img/Nike-SB-Stefan-Janoski-Max.png" width="329" height="159" alt="Product photo">
+          </div>
+        </div>
+      </div>
+      <div class="card__description-column">
+        <h3 class="card__description__title">Nike SB Stefan  Janoski Max</h3>
+        <p class="card__description__text">Unisex Skateboarding Shoe</p>
+        <div class="card__description__stars">
+          <input class="radio" type="radio" name="star" value="1" id="star-1">
+          <label class="star" for="star-1"></label>
+          <input class="radio" type="radio" name="star" value="1" id="star-2">
+          <label class="star" for="star-2"></label>
+          <input class="radio" type="radio" name="star" value="1" id="star-3">
+          <label class="star" for="star-3"></label>
+          <input class="radio" type="radio" name="star" value="1" id="star-4">
+          <label class="star" for="star-4"></label>
+          <input class="radio" type="radio" name="star" value="1" id="star-5">
+          <label class="star" for="star-5"></label>
+          <!-- <label class="star"><input class="radio" type="radio" name="star" value="5"></label>
+
+           <div class="rating-area">
+   <input type="radio" id="star-5" name="rating" value="5">
+   <label for="star-5" title="Оценка «5»"></label>
+   <input type="radio" id="star-4" name="rating" value="4">
+   <label for="star-4" title="Оценка «4»"></label>
+   <input type="radio" id="star-3" name="rating" value="3">
+   <label for="star-3" title="Оценка «3»"></label>
+   <input type="radio" id="star-2" name="rating" value="2">
+   <label for="star-2" title="Оценка «2»"></label>
+   <input type="radio" id="star-1" name="rating" value="1">
+   <label for="star-1" title="Оценка «1»"></label>
+           </div>
+           -->
+<!--          <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>-->
+        </div>
+        <form action="#" class="card__description__form" method="get">
+          <div class="card__description__select">
+            <label>
+            <select class="select__size" name="select-size">
+              <option class="select__var" value="41">41</option>
+              <option class="select__var" value="42">42</option>
+              <option class="select__var" value="43">43</option>
+              <option class="select__var" value="44">44</option>
+              <option class="select__var" value="45">45</option>
+              <option class="select__var" value="Size" selected>Size</option>
+            </select>
+          </label>
+            <label>
+              <select class="select__qty" name="select-quantity">
+                <option class="select__var" value="1">1</option>
+                <option class="select__var" value="2">2</option>
+                <option class="select__var" value="3">3</option>
+                <option class="select__var" value="4">4</option>
+                <option class="select__var" value="5">5</option>
+                <option class="select__var" value="Qty" selected>Qty</option>
+              </select>
+            </label>
+          </div>
+          <button class="card__description__btn add-to-cart" type="submit">Add to cart</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <h2 class="visually-hidden">Additional information</h2>
+</footer>
+
+</body>
+
+</html>
